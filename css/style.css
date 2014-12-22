@@ -1,0 +1,157 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #222;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+********************
+* Header
+********************
+*/
+header {
+	position: relative;
+	top: 0;
+	height: 60px;
+}
+
+header .logo {
+	position: relative;
+	background: url(../img/logo11w.png) no-repeat;
+	background-size:150px 50px;
+	height: 50px;
+	width: 150px;
+}
+
+header ul {
+	float: right;
+	margin-top: 20px;
+}
+
+header ul li {
+	display: inline-block;
+	line-height: 24px;
+	vertical-align: middle;
+	margin-right: 20px;
+	color: #404040;
+	text-decoration: none;
+}
+
+/*
+********************
+* Main
+********************
+*/
+main {
+	text-align: center;
+}
+
+.logo {
+	position: relative;
+	background: url(../img/logo11w.png) no-repeat;
+	background-size:269px 95px;
+	height: 95px;
+	width: 269px;
+	margin: 132px auto 0;
+}
+
+.logoInset {
+	position: absolute;
+	right: 0;
+	bottom: 7px;
+}
+
+.logoInset p {
+	color: #777;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	width: 557px;
+	padding: 6px;
+	margin-top: 23px;
+	border: 1px solid #c6c6c6;
+}
+
+input:hover {
+	border: 1px solid #a0a0a0;
+}
+
+input:focus {
+	border: 1px solid blue;
+}
+
+button {
+	display: inline;
+	margin: 16px 6px;
+	padding: 0 6px;
+	font: bold 11px/27px Arial,sans-serif!important;
+	vertical-align: top;
+}
+
+p.offeredIn {
+	margin: 32px auto;
+}
+
+main p a {
+	color: blue;
+}
+
+/*
+********************
+* Footer
+********************
+*/
+footer {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	width: 100%;
+}
+
+ul.footerLeft {
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+ul.footerLeft li {
+	padding-left: 20px;
+}
+
+ul.footerRight {
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+ul.footerRight li {
+	padding-right: 20px;
+}
+
+footer ul li {
+	display: inline;
+	vertical-align: middle;
+}
+
+footer a {
+	color: #666;
+}
